@@ -7,3 +7,4 @@ My Template for SvelteKit, powered by [`create-svelte`](https://github.com/svelt
 - [x] Tailwind CSS
 - [x] Vitest + UI + Coverage
 - [x] Testing Library Svelte
+- [x] Github Actions + PNPM 
