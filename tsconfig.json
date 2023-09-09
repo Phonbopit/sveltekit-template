@@ -9,7 +9,12 @@
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "types": ["vitest/globals", "@testing-library/jest-dom"]
+    "types": ["vitest/globals", "@testing-library/jest-dom"],
+    "paths": {
+      "$lib": ["./src/lib"],
+      "$lib/*": ["./src/lib/*"],
+      "$components/*": ["./src/components/*"]
+    }
   }
   // Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
   //
