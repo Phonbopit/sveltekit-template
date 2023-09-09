@@ -19,9 +19,9 @@
   },
   "engines": {
     "node": "^16.13 || ^18.12",
-    "pnpm": ">=8.5.0"
+    "pnpm": ">=8.6.0"
   },
-  "packageManager": "pnpm@8.5.0",
+  "packageManager": "pnpm@8.6.12",
   "devDependencies": {
     "@fontsource/fredoka-one": "5.0.0",
     "@playwright/test": "1.34.3",
