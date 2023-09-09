@@ -8,9 +8,6 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{js,ts,svelte,jsx,tsx}'],
     globals: true,
     environment: 'jsdom',
-    setupFiles: './src/test/setup-vitest.ts',
-    coverage: {
-      provider: 'c8'
-    }
+    setupFiles: './src/test/setup-vitest.ts'
   }
 })
