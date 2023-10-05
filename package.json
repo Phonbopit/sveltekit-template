@@ -18,10 +18,10 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "engines": {
-    "node": "^16.13 || ^18.12",
-    "pnpm": ">=8.6.0"
+    "node": "^18.12",
+    "bun": ">1.0.0"
   },
-  "packageManager": "pnpm@8.6.12",
+  "packageManager": ">=bun@1.0.0",
   "devDependencies": {
     "@fontsource/fredoka-one": "5.0.0",
     "@playwright/test": "1.38.1",
