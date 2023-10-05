@@ -3,10 +3,10 @@
 </script>
 
 <div class="flex h-screen">
-  <div class="mx-w-4xl m-auto prose lg:prose-xl">
+  <div class="mx-w-4xl prose m-auto lg:prose-xl">
     <Heading title="Welcome to SvelteKit" />
     <p class="text-center">
-      Visit <a class="underline text-red-400" href="https://kit.svelte.dev">kit.svelte.dev</a> to read
+      Visit <a class="text-red-400 underline" href="https://kit.svelte.dev">kit.svelte.dev</a> to read
       the documentation
     </p>
   </div>
